@@ -5,11 +5,33 @@ html{
     display: flex;
     min-height: 100%;
     flex-direction: column;
-    justify-content: space-around;
+    
 }
 body{
     height: 100%;
+    margin: 0;
+    
 }
 footer{
+    margin-top: auto;
+}
+.header-top{
+    display: flex;
+}
+nav{
 
+}
+nav ul{
+    padding: 0%;    
+}
+nav ul li{
+    display: inline;
+}
+nav ul li a{
+text-decoration: none;
+color: black;
+}
+.logo{
+    margin-left: 402px;
+    margin-right: 398px;
 }
