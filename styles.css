@@ -17,6 +17,9 @@ footer{
 }
 .header-top{
     display: flex;
+    justify-content: center;
+    margin-top: 56px;
+
 }
 nav{
 
@@ -27,11 +30,23 @@ nav ul{
 nav ul li{
     display: inline;
 }
+nav ul li:not(:last-child){
+    padding-right: 42px;
+}
 nav ul li a{
-text-decoration: none;
-color: black;
+    text-decoration: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.1em;
+    color: #000000;
+}
+nav ul li a:hover{
+
+    color: #34547A;
 }
 .logo{
-    margin-left: 402px;
     margin-right: 398px;
 }
