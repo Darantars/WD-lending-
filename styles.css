@@ -47,7 +47,6 @@ nav ul li a{
     color: #000000;
 }
 nav ul li a:hover{
-
     color: #34547A;
 }
 .logo{
@@ -98,4 +97,48 @@ button{
     border: 0ch;
     background-color: #34547A;;
     color: #FFFFFF;
+}
+button:hover{
+    cursor: pointer;
+}
+.main-about{
+    justify-content: center;
+    text-align: center;
+}
+.main-about h2{
+    margin-top: 120px;
+    margin-bottom: 50px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 38px;
+    text-align: center;
+    color: #000000;
+}
+.main-about h3{
+    margin: auto;
+    width: 540px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #727272;
+    margin-bottom: 113px;
+}
+.main-projects{
+    background-color: #34547A;
+    min-height: 250px;
+    display: flex;
+    justify-content: baseline;
+    text-align: justify;
+}
+.main-projects img{
+    width: 50px;
+    margin: auto;
+}
+.{
+
 }
